@@ -1,0 +1,167 @@
+body {
+    font: 14px/1.5 "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    min-width: 960px;
+    color: #555;
+}
+
+/* Typo */
+a {
+    -webkit-transition: color .5s, text-shadow .5s;
+    -moz-transition: color .5s, text-shadow .5s;
+    transition: color .5s, text-shadow .5s;
+    text-decoration: underline;
+    color: #82B440;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #82B440;
+    color: #555;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+h1 {
+    text-align:center;
+    font-size: 29px;
+    font-weight:700;
+}
+h2 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 23px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 17px;
+}
+h6 {
+    font-size: 17px;
+}
+.ba-col {
+    float: left;
+}
+.ba-col1, .ba-col2 {
+    padding-right: 50px;
+    width: 50%;
+}
+
+/* Header */
+.ba-header {
+    background: url("../img/banner.jpg") no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.ba-header .banner {
+    padding: 70px 0 100px 0;
+}
+
+.ba-header nav {
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    font-size: 0;
+}
+
+.ba-header nav:hover {
+    color: transparent;
+    text-shadow: 0 0 3px #fff;
+}
+
+.ba-header nav a:hover, .ba-header nav a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 15px;
+    height: 64px;
+    line-height: 64px;
+}
+
+.ba-header nav ul li {
+    display: inline-block;
+}
+
+.ba-header .logo {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #82b440;
+    padding: 0 10px;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.ba-header p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ba-header p:last-child {
+    margin-bottom: 0;
+}
+
+.ba-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section */
+.ba-grid {
+    margin-left:-80px;
+    *zoom: 1;
+}
+.ba-grid > [class*="ba-width"] {
+    float:left;
+    padding-left: 80px;
+}
+.ba-byline {
+    font-size:20px;
+}
+.ba-button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    padding: 0 15px;
+    height:54px;
+    line-height:54px;
+    border: 1px solid #82B440;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-transition: color .5s, background-color .5s, border-color .5s;
+    -moz-transition: color .5s, background-color .5s, border-color .5s;
+    -ms-transition: color .5s, background-color .5s, border-color .5s;
+    -o-transition: color .5s, background-color .5s, border-color .5s;
+    transition: color .5s, background-color .5s, border-color .5s;
+}
+
+.ba-bg-primary .ba-button,
+.ba-bg-primary button,
+.ba-bg-primary input[type="button"],
+.ba-bg-primary input[type="submit"],
+.ba-bg-primary input[type="reset"] {
+    background-color: #fff;
+    color: #82B440;
+    border-color:#fff;
+}
+.ba-bg-primary .ba-button:hover,
+.ba-bg-primary button:hover,
+.ba-bg-primary input[type="button"]:hover,
+.ba-bg-primary input[type="submit"]:hover,
+.ba-bg-primary input[type="reset"]:hover {
+    background-color: #82B440;
+    color: #fff;
+}
